@@ -43,7 +43,7 @@ func main() {
 	micro.Get("/healthchecker", func(c *fiber.Ctx) error {
 		return c.Status(200).JSON(fiber.Map{
 			"status":  "success",
-			"message": "Welcome to Golang, Fiber, and GORM",
+			"message": "Welcome to Golang, Fiber, MySQL, and GORM",
 		})
 	})
 
