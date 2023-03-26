@@ -12,6 +12,6 @@ install-modules:
 	go get github.com/google/uuid
 	go get github.com/go-playground/validator/v10
 	go get -u gorm.io/gorm
-	go get gorm.io/driver/postgres
+	go get gorm.io/driver/mysql
 	go get github.com/spf13/viper
 	go install github.com/cosmtrek/air@latest
